@@ -11,7 +11,7 @@
   const deleteItem = () => dispatch('delete', id);
 </script>
 
-<div class="card">
+<div class="card item">
   <div class="card-body">
     <strong class="item-amount">{formatAmount(amount)} &euro;</strong>
     {description}

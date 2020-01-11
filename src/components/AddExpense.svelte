@@ -16,10 +16,15 @@
 </script>
 
 <div class="form form-inline">
-  <input type="text" class="form-control amount" bind:value={amount} />
+  <input
+    type="text"
+    id="amountInput"
+    class="form-control amount"
+    bind:value={amount} />
   <strong>&euro;</strong>
   <input
     type="text"
+    id="descriptionInput"
     class="form-control description"
     bind:value={description} />
   <button class="btn btn-primary" on:click={add}>
