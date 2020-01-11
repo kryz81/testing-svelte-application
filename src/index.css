@@ -1,0 +1,52 @@
+body {
+  background-color: #f5f5f5;
+  padding: 25px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  width: 800px;
+}
+
+.application-header {
+  color: #0066cc;
+  font-weight: bold;
+  font-size: 24px;
+  padding-bottom: 25px;
+}
+
+.card {
+  margin-bottom: 15px;
+  border-color: #ccc;
+}
+
+.item-amount {
+  width: 100px;
+  display: inline-block;
+}
+
+.item-delete {
+  float: right;
+}
+
+.item-delete a {
+  color: #ff6666;
+}
+
+.item-filter {
+  margin-bottom: 50px;
+}
+
+hr {
+  margin: 25px 0 50px 0;
+}
+
+.form .form-control.amount {
+  width: 100px;
+  margin-right: 10px;
+}
+
+.form .form-control.description {
+  margin: 0 25px 0 50px;
+  width: 50%;
+}
